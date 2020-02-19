@@ -4,6 +4,9 @@
 #
 # ABOUT THIS PROGRAM
 #
+#	LetMeDec.sh
+#	https://https://github.com/Headbolt/LetMeDec
+#
 #   This Script is designed for use in JAMF
 #
 #   This script was designed to enable the currently logged in user's account the ability to unlock
@@ -39,7 +42,8 @@ adminName=$4
 # Grab the Password of a FileVault Admin from JAMF variable #5 eg. password
 adminPass=$5
 # Set the name of the script for later logging
-ScriptName="append prefix here as needed - Check Login User has FV2 Enabled and Enable if Not"
+#ScriptName="append prefix here as needed - Check Login User has FV2 Enabled and Enable if Not"
+ScriptName="ZZ 17 - Global Settings - Check Login User has FV2 Enabled and Enable if Not"
 #
 ## Grab the OS version
 OS=`/usr/bin/sw_vers -productVersion | awk -F. {'print $2'}`
