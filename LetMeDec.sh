@@ -5,7 +5,7 @@
 # ABOUT THIS PROGRAM
 #
 #	LetMeDec.sh
-#	https://https://github.com/Headbolt/LetMeDec
+#	https://github.com/Headbolt/LetMeDec
 #
 #   This Script is designed for use in JAMF
 #
